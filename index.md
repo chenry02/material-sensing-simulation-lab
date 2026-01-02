@@ -11,7 +11,7 @@ The Material Sensing & Simulation Lab is based at IMT Atlantique, Brest, France 
 
 {% capture text %}
 
-An overview of the main research themes and technical capabilities of the lab.
+This section presents the main research contributions and publications of the Material Sensing & Simulation Lab.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ An overview of the main research themes and technical capabilities of the lab.
 
 {% capture text %}
 
-This section presents the main research contributions and publications of the Material Sensing & Simulation Lab.
+This section presents the ongoing and past research projects conducted within the Material Sensing & Simulation Lab.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ This section presents the main research contributions and publications of the Ma
 
 {% capture text %}
 
-This section presents the ongoing and past research projects conducted within the Material Sensing & Simulation Lab.
+Here you can find the members of the team.
 
 {%
   include button.html
