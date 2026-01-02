@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-This page presents selected publications from the Material Sensing & Simulation Lab, reflecting our research activities in high-frequency material characterization and electromagnetic modeling.
+This page presents selected publications from the Material Sensing & Simulation Lab, on our research activities in high-frequency material characterization and electromagnetic modeling.
 
 
 {% include section.html %}
