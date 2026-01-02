@@ -200,27 +200,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -236,30 +220,42 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1017/S1759078724001314
+  title: Quasi-optical modeling of a millimeter- and submillimeter-wave free-space
+    characterization bench
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Gregory Gaudin
+  - "Cl\xE9ment Henry"
+  - Daniel Bourreau
+  - Alain Peden
+  publisher: International Journal of Microwave and Wireless Technologies
+  date: '2025-02-11'
+  link: https://doi.org/hbhm56
+  type: paper
+  description: In this article, we present a simulation tool for modeling a quasi-optical
+    bench for material characterization.
+  image: https://github.com/chenry02/material-sensing-simulation-lab/blob/main/images/20250211_paper1_simulationtool.png
+  tags:
+  - Gaussian beams
+  - quasi-optical systems
+  - material characterization
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.23919/EuCAP63536.2025.10999502
+  title: 'Modelling of Quasi-Optical Systems: Application to Skin Spectroscopy'
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Gregory Gaudin
+  - Alain Peden
+  - Daniel Bourreau
+  - "Cl\xE9ment Henry"
+  publisher: 2025 19th European Conference on Antennas and Propagation (EuCAP)
+  date: '2025-03-30'
+  link: https://doi.org/hbhm57
+  image: https://github.com/chenry02/material-sensing-simulation-lab/blob/main/images/20250330_confpaper_eucap.png
+  tags:
+  - Gaussian beams
+  - quasi-optical systems
+  - skin permittivity
+  - THz
   plugin: sources.py
   file: sources.yaml
