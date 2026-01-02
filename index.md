@@ -1,9 +1,9 @@
 ---
 ---
 
-# chenry02's Website
+# Material Sensing & Simulation Lab
 
-An engaging 1-3 sentence description of your lab.
+The Material Sensing & Simulation Lab is based at IMT Atlantique, Brest, France and focuses on the characterization of materials at high frequencies, combining electromagnetic measurements with computational modeling. Our work spans from GHz to THz regimes, enabling accurate extraction of dielectric properties.
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+An overview of the main research themes and technical capabilities of the lab.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This section presents the main research contributions and publications of the Material Sensing & Simulation Lab.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This section presents the ongoing and past research projects conducted within the Material Sensing & Simulation Lab.
 
 {%
   include button.html
