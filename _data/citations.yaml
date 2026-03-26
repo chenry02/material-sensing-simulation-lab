@@ -142,20 +142,6 @@
   link: https://imt-atlantique.hal.science/hal-04795549
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686480
-  title: A Preconditioned Inverse Scattering Scheme for High-Contrast Bone Imaging
-    at Microwave Frequencies
-  authors:
-  - Alberto Scazzola
-  - Adrien Merlini
-  - "Cl\xE9ment Henry"
-  - Francesco P. Andriulli
-  publisher: "2024 IEEE International Symposium on Antennas and Propagation and INC/USNC\u2010\
-    URSI Radio Science Meeting (AP-S/INC-USNC-URSI)"
-  date: '2024-07-14'
-  link: https://doi.org/hbtzmx
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686275
   title: A Tree-Based Scheme for the Numerically Stable Compression of Integral Equations
   authors:
@@ -184,6 +170,20 @@
   link: https://doi.org/hbtzm2
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686480
+  title: A Preconditioned Inverse Scattering Scheme for High-Contrast Bone Imaging
+    at Microwave Frequencies
+  authors:
+  - Alberto Scazzola
+  - Adrien Merlini
+  - "Cl\xE9ment Henry"
+  - Francesco P. Andriulli
+  publisher: "2024 IEEE International Symposium on Antennas and Propagation and INC/USNC\u2010\
+    URSI Radio Science Meeting (AP-S/INC-USNC-URSI)"
+  date: '2024-07-14'
+  link: https://doi.org/hbtzmx
+  plugin: sources.py
+  file: sources.yaml
 - id: url:https://imt-atlantique.hal.science/hal-04631622v1
   title: "Mod\xE9lisation de syst\xE8mes quasi-optiques d\xE9di\xE9s \xE0 la caract\xE9\
     risation de mat\xE9riaux et \xE0 l'imagerie en bande J (220-330 GHz)"
@@ -209,18 +209,6 @@
   link: https://doi.org/hbtzm3
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/CAMA57522.2023.10352886
-  title: A Fast Direct Solver for Volume Integral Equations Based on Quasi-Helmholtz
-    Laplacian Filters
-  authors:
-  - "Cl\xE9ment Henry"
-  - Adrien Merlini
-  - Francesco P. Andriulli
-  publisher: 2023 IEEE Conference on Antenna Measurements and Applications (CAMA)
-  date: '2023-11-15'
-  link: https://doi.org/hbtzm4
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1109/CAMA57522.2023.10352703
   title: Linear-in-Complexity Computational Strategies for Modeling and Dosimetry
     at TeraHertz
@@ -233,6 +221,18 @@
   publisher: 2023 IEEE Conference on Antenna Measurements and Applications (CAMA)
   date: '2023-11-15'
   link: https://doi.org/hbtzm5
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CAMA57522.2023.10352886
+  title: A Fast Direct Solver for Volume Integral Equations Based on Quasi-Helmholtz
+    Laplacian Filters
+  authors:
+  - "Cl\xE9ment Henry"
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2023 IEEE Conference on Antenna Measurements and Applications (CAMA)
+  date: '2023-11-15'
+  link: https://doi.org/hbtzm4
   plugin: sources.py
   file: sources.yaml
 - id: url:https://hal.science/hal-04164234v1
@@ -296,21 +296,6 @@
   link: https://doi.org/hbtzm7
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886850
-  title: 'Laplacian Filters for Integral Equations: Further Developments and Fast
-    Algorithms'
-  authors:
-  - Adrien Merlini
-  - Clement Henry
-  - Davide Consoli
-  - Lyes Rahmouni
-  - Francesco P. Andriulli
-  publisher: 2022 IEEE International Symposium on Antennas and Propagation and USNC-URSI
-    Radio Science Meeting (AP-S/URSI)
-  date: '2022-07-10'
-  link: https://doi.org/hbtzm8
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886398
   title: On a Fast Solution Strategy for a Surface-Wire Integral Formulation of the
     Anisotropic Forward Problem in Electroencephalography
@@ -326,6 +311,21 @@
     Radio Science Meeting (AP-S/URSI)
   date: '2022-07-10'
   link: https://doi.org/hbtzm9
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886850
+  title: 'Laplacian Filters for Integral Equations: Further Developments and Fast
+    Algorithms'
+  authors:
+  - Adrien Merlini
+  - Clement Henry
+  - Davide Consoli
+  - Lyes Rahmouni
+  - Francesco P. Andriulli
+  publisher: 2022 IEEE International Symposium on Antennas and Propagation and USNC-URSI
+    Radio Science Meeting (AP-S/URSI)
+  date: '2022-07-10'
+  link: https://doi.org/hbtzm8
   plugin: sources.py
   file: sources.yaml
 - id: url:https://cnrs.hal.science/hal-04342598v1

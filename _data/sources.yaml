@@ -9,17 +9,17 @@
   id: url:https://imt-atlantique.hal.science/hal-04795549v1
   publisher: HAL Archive Ouverte
   title: High frequency modeling of a quasi-optical characterization bench
-- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686480
 - id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686275
 - id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10687162
+- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686480
 - date: '2024-06-04'
   id: url:https://imt-atlantique.hal.science/hal-04631622v1
   publisher: HAL Archive Ouverte
   title: "Mod\xE9lisation de syst\xE8mes quasi-optiques d\xE9di\xE9s \xE0 la caract\xE9\
     risation de mat\xE9riaux et \xE0 l'imagerie en bande J (220-330 GHz)"
 - id: doi:10.23919/EuCAP60739.2024.10501609
-- id: doi:10.1109/CAMA57522.2023.10352886
 - id: doi:10.1109/CAMA57522.2023.10352703
+- id: doi:10.1109/CAMA57522.2023.10352886
 - date: '2023-04-03'
   id: url:https://hal.science/hal-04164234v1
   publisher: HAL Archive Ouverte
@@ -32,8 +32,8 @@
   publisher: HAL Archive Ouverte
   title: Fast Direct Solvers Based on the Quasi-Helmholtz Laplacian Filters
 - id: doi:10.1109/ICEAA49419.2022.9899870
-- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886850
 - id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886398
+- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886850
 - date: '2022-06-08'
   id: url:https://cnrs.hal.science/hal-04342598v1
   publisher: HAL Archive Ouverte
