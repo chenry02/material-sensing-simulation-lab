@@ -14,8 +14,8 @@
   date: '2023-12-01'
   link: https://doi.org/hbhm64
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/TAP.2022.3161390
   title: On a Low-Frequency and Contrast-Stabilized Full-Wave Volume Integral Equation
     Solver for Lossy Media
@@ -28,8 +28,8 @@
   date: '2023-03-01'
   link: https://doi.org/hbhm65
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/IEEECONF35879.2020.9330486
   title: A Regularized Electric Flux Volume Integral Equation for Brain Imaging
   authors:
@@ -42,8 +42,8 @@
   date: '2020-07-05'
   link: https://doi.org/hbhm66
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.3390/ijerph17072586
   title: A Surrogate Model Based on Artificial Neural Network for RF Radiation Modelling
     with High-Dimensional Data
@@ -57,8 +57,8 @@
   date: '2020-04-09'
   link: https://doi.org/hbhm67
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/CLEOE-EQEC.2019.8873045
   title: Computational Modelling of Metasurfaces for Strongly Divergent Beams
   authors:
@@ -73,8 +73,8 @@
   date: '2019-06-01'
   link: https://doi.org/gh86mn
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1364/OE.27.021069
   title: A Gaussian reflective metasurface for advanced wavefront manipulation
   authors:
@@ -88,27 +88,21 @@
   date: '2019-07-15'
   link: https://doi.org/gh83q8
   orcid: 0000-0002-0919-3174
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1017/S1759078724001314
-  title: Quasi-optical modeling of a millimeter- and submillimeter-wave free-space
-    characterization bench
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://hal.science/hal-05378598v1
+  title: Comparative study of characterization techniques in the Millimeter Waves
+    and THz domains
   authors:
-  - Gregory Gaudin
+  - Younes Ferrah
+  - "Emilie H\xE9rault"
+  - "Gr\xE9gory Gaudin"
   - "Cl\xE9ment Henry"
-  - Daniel Bourreau
-  - Alain Peden
-  publisher: International Journal of Microwave and Wireless Technologies
-  date: '2025-02-11'
-  link: https://doi.org/hbhm56
-  type: paper
-  description: In this article, we present a simulation tool for modeling a quasi-optical
-    bench for material characterization.
-  image: https://github.com/chenry02/material-sensing-simulation-lab/blob/main/images/20250211_paper1_simulationtool.png
-  tags:
-  - Gaussian beams
-  - quasi-optical systems
-  - material characterization
+  - Maxime Bernier
+  - "Fr\xE9d\xE9ric Garet"
+  publisher: HAL Archive Ouverte
+  date: '2025-06-24'
+  link: https://hal.science/hal-05378598
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.23919/EuCAP63536.2025.10999502
@@ -121,11 +115,240 @@
   publisher: 2025 19th European Conference on Antennas and Propagation (EuCAP)
   date: '2025-03-30'
   link: https://doi.org/hbhm57
-  image: https://github.com/chenry02/material-sensing-simulation-lab/blob/main/images/20250330_confpaper_eucap.png
-  tags:
-  - Gaussian beams
-  - quasi-optical systems
-  - skin permittivity
-  - THz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1017/S1759078724001314
+  title: Quasi-optical modeling of a millimeter- and submillimeter-wave free-space
+    characterization bench
+  authors:
+  - Gregory Gaudin
+  - "Cl\xE9ment Henry"
+  - Daniel Bourreau
+  - Alain Peden
+  publisher: International Journal of Microwave and Wireless Technologies
+  date: '2025-02-11'
+  link: https://doi.org/hbhm56
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://imt-atlantique.hal.science/hal-04795549v1
+  title: High frequency modeling of a quasi-optical characterization bench
+  authors:
+  - Gregory Gaudin
+  - Alain Peden
+  - "Cl\xE9ment Henry"
+  - Daniel Bourreau
+  publisher: HAL Archive Ouverte
+  date: '2024-11-11'
+  link: https://imt-atlantique.hal.science/hal-04795549
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686480
+  title: A Preconditioned Inverse Scattering Scheme for High-Contrast Bone Imaging
+    at Microwave Frequencies
+  authors:
+  - Alberto Scazzola
+  - Adrien Merlini
+  - "Cl\xE9ment Henry"
+  - Francesco P. Andriulli
+  publisher: "2024 IEEE International Symposium on Antennas and Propagation and INC/USNC\u2010\
+    URSI Radio Science Meeting (AP-S/INC-USNC-URSI)"
+  date: '2024-07-14'
+  link: https://doi.org/hbtzmx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10686275
+  title: A Tree-Based Scheme for the Numerically Stable Compression of Integral Equations
+  authors:
+  - Giulio Cosentino
+  - "Cl\xE9ment Henry"
+  - Maxime Y. Monin
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: "2024 IEEE International Symposium on Antennas and Propagation and INC/USNC\u2010\
+    URSI Radio Science Meeting (AP-S/INC-USNC-URSI)"
+  date: '2024-07-14'
+  link: https://doi.org/hbtzmz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/INC-USNC-URSI52054.2024.10687162
+  title: 'On a Fast Direct Solver for High Order Integral Equations: Results for Low-to-Middle
+    Frequencies'
+  authors:
+  - "Damiano Franz\xF2"
+  - Adrien Merlini
+  - "Cl\xE9ment Henry"
+  - Francesco P. Andriulli
+  publisher: "2024 IEEE International Symposium on Antennas and Propagation and INC/USNC\u2010\
+    URSI Radio Science Meeting (AP-S/INC-USNC-URSI)"
+  date: '2024-07-14'
+  link: https://doi.org/hbtzm2
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://imt-atlantique.hal.science/hal-04631622v1
+  title: "Mod\xE9lisation de syst\xE8mes quasi-optiques d\xE9di\xE9s \xE0 la caract\xE9\
+    risation de mat\xE9riaux et \xE0 l'imagerie en bande J (220-330 GHz)"
+  authors:
+  - Gregory Gaudin
+  - Daniel Bourreau
+  - "Cl\xE9ment Henry"
+  - Alain Peden
+  publisher: HAL Archive Ouverte
+  date: '2024-06-04'
+  link: https://imt-atlantique.hal.science/hal-04631622
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.23919/EuCAP60739.2024.10501609
+  title: Modeling of Quasi-Optical Systems and Measurements with a Cobot in the J-Band
+  authors:
+  - Gregory Gaudin
+  - Daniel Bourreau
+  - "Cl\xE9ment Henry"
+  - Alain Peden
+  publisher: 2024 18th European Conference on Antennas and Propagation (EuCAP)
+  date: '2024-03-17'
+  link: https://doi.org/hbtzm3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CAMA57522.2023.10352886
+  title: A Fast Direct Solver for Volume Integral Equations Based on Quasi-Helmholtz
+    Laplacian Filters
+  authors:
+  - "Cl\xE9ment Henry"
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2023 IEEE Conference on Antenna Measurements and Applications (CAMA)
+  date: '2023-11-15'
+  link: https://doi.org/hbtzm4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CAMA57522.2023.10352703
+  title: Linear-in-Complexity Computational Strategies for Modeling and Dosimetry
+    at TeraHertz
+  authors:
+  - Viviana Giunzioni
+  - Giuseppe Ciacco
+  - "Cl\xE9ment Henry"
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2023 IEEE Conference on Antenna Measurements and Applications (CAMA)
+  date: '2023-11-15'
+  link: https://doi.org/hbtzm5
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://hal.science/hal-04164234v1
+  title: "Un banc de mesure de param\xE8tres S en espace libre sans moyennage ni filtrage\
+    \ temporel : caract\xE9risation de mat\xE9riaux jusqu'\xE0 330 GHz"
+  authors:
+  - Alain Peden
+  - Daniel Bourreau
+  - "Cl\xE9ment Henry"
+  - Gregory Gaudin
+  publisher: HAL Archive Ouverte
+  date: '2023-04-03'
+  link: https://hal.science/hal-04164234
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.23919/EuCAP57121.2023.10133635
+  title: Fast Direct Solvers for Integral Equations at Low-Frequency Based on Operator
+    Filtering
+  authors:
+  - "Cl\xE9ment Henry"
+  - Davide Consoli
+  - "Alexandre D\xE9ly"
+  - Lyes Rahmouni
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2023 17th European Conference on Antennas and Propagation (EuCAP)
+  date: '2023-03-26'
+  link: https://doi.org/hbtzm6
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://hal.science/hal-04169310v1
+  title: Fast Direct Solvers Based on the Quasi-Helmholtz Laplacian Filters
+  authors:
+  - "Cl\xE9ment Henry"
+  - Davide Consoli
+  - "Alexandre D\xE9ly"
+  - Lyes Rahmouni
+  - Adrien Merlini
+  - Francesco Andriulli
+  publisher: HAL Archive Ouverte
+  date: '2022-12-14'
+  link: https://hal.science/hal-04169310
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICEAA49419.2022.9899870
+  title: On the Fast Direct Solution of a Preconditioned Electromagnetic Integral
+    Equation
+  authors:
+  - Davide Consoli
+  - Clement Henry
+  - Alexandre Dely
+  - Lyes Rahmouni
+  - John Erik Ortiz Guzman
+  - Tiffany L. Chhim
+  - Simon B. Adrian
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2022 International Conference on Electromagnetics in Advanced Applications
+    (ICEAA)
+  date: '2022-09-05'
+  link: https://doi.org/hbtzm7
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886850
+  title: 'Laplacian Filters for Integral Equations: Further Developments and Fast
+    Algorithms'
+  authors:
+  - Adrien Merlini
+  - Clement Henry
+  - Davide Consoli
+  - Lyes Rahmouni
+  - Francesco P. Andriulli
+  publisher: 2022 IEEE International Symposium on Antennas and Propagation and USNC-URSI
+    Radio Science Meeting (AP-S/URSI)
+  date: '2022-07-10'
+  link: https://doi.org/hbtzm8
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/AP-S/USNC-URSI47032.2022.9886398
+  title: On a Fast Solution Strategy for a Surface-Wire Integral Formulation of the
+    Anisotropic Forward Problem in Electroencephalography
+  authors:
+  - Carlo Baronio
+  - Giulio Cosentino
+  - Paolo Ricci
+  - Clement Henry
+  - Maxime Y. Monin
+  - Adrien Merlini
+  - Francesco P. Andriulli
+  publisher: 2022 IEEE International Symposium on Antennas and Propagation and USNC-URSI
+    Radio Science Meeting (AP-S/URSI)
+  date: '2022-07-10'
+  link: https://doi.org/hbtzm9
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://cnrs.hal.science/hal-04342598v1
+  title: "Sources pr\xE9-d\xE9form\xE9es pour des analyses haute r\xE9solution de\
+    \ l'impact du rayonnement radiofr\xE9quence sur l'activit\xE9 c\xE9r\xE9brale"
+  authors:
+  - "Cl\xE9ment Henry"
+  - Adrien Merlini
+  - Joe Wiart
+  - F. P. Andriulli
+  - Christian Person
+  publisher: HAL Archive Ouverte
+  date: '2022-06-08'
+  link: https://cnrs.hal.science/hal-04342598
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://hal.science/tel-04642819v1
+  title: Volume Integral Equation Methods for Forward and Inverse Bioelectromagnetic
+    Problems
+  authors:
+  - "Cl\xE9ment Henry"
+  publisher: HAL Archive Ouverte
+  date: '2021-06-28'
+  link: https://hal.science/tel-04642819
   plugin: sources.py
   file: sources.yaml
