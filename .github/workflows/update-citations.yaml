@@ -56,6 +56,12 @@ jobs:
         if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
 
+      - name: Fetch from HAL
+        if: github.event.action != 'closed'
+        run: |
+          python -m pip install requests pyyaml
+          python scripts/fetch_hal.py
+
       - name: Build updated citations
         if: github.event.action != 'closed'
         run: python _cite/cite.py
@@ -75,6 +81,7 @@ jobs:
         with:
           files: |
             _data/citations.yaml
+            _data/sources.yaml
 
       - name: Commit updated citations to branch
         if: |
