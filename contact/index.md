@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-**Clément Henry**  
-Researcher at IMT Atlantique — Material Sensing & Simulation Lab
+If you are interested in collaborating with us or asking for opportunities, please contact us.
 
 {%
   include button.html
@@ -25,14 +24,9 @@ Researcher at IMT Atlantique — Material Sensing & Simulation Lab
 {%
   include button.html
   type="address"
-  tooltip="IMT Atlantique — Technopôle Brest-Iroise"
-  link="https://www.google.com/maps/search/Technopôle+Brest-Iroise+CS+83818+29238+Brest+Cedex+3"
+  tooltip="IMT Atlantique — 655 Av. du Technopôle, 29280 Plouzané"
+  link="https://www.google.com/maps/search/IMT+Atlantique+655+Av.+du+Technopôle+29280+Plouzané"
 %}
-
-Technopôle Brest-Iroise  
-CS 83818  
-29238 Brest Cedex 3  
-France
 
 {% include section.html %}
 

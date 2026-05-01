@@ -132,6 +132,13 @@ header:not([data-big]) {
   }
 }
 
+.partner-logo {
+  height: 36px;
+  object-fit: contain;
+  opacity: 0.9;
+  flex-shrink: 0;
+}
+
 header[data-big] {
   justify-content: center;
   align-items: center;
@@ -143,16 +150,26 @@ header[data-big] {
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-grow: 0;
+    align-items: center;
+    gap: 20px;
   }
 
   .logo {
-    height: $logo-big;
-    flex-shrink: 0;
+    display: none;
+  }
+
+  .partner-logo {
+    height: 55px;
+    order: 1;
   }
 
   .title-text {
+    order: 2;
+    flex: 0 0 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;

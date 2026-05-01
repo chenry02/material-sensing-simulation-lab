@@ -17,6 +17,7 @@
   {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
+    <img class="partner-logo" src="{{ 'images/imtatlantique-rvb-reserve.png' | relative_url }}" alt="IMT Atlantique">
     {% if logo %}
       <span class="logo">
         {% if svg %}
@@ -26,6 +27,7 @@
         {% endif %}
       </span>
     {% endif %}
+    <img class="partner-logo" src="{{ 'images/logo-lab-sticc.png' | relative_url }}" alt="Lab-STICC">
     {% if site.logo-text != false %}
       <span class="title-text" data-tooltip="Home">
         {% if site.title and site.show-title != false %}

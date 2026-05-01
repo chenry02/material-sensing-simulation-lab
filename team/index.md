@@ -7,29 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The Material Sensing & Simulation Lab is based at IMT Atlantique, Brest, France and focuses on the characterization of materials at high frequencies, combining electromagnetic measurements with computational modeling. Our work spans from GHz to THz regimes, enabling accurate extraction of dielectric properties.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include list.html data="members" component="portrait" filter="group != 'alum'" %}
 
 {% include section.html %}
 
-{% capture content %}
+## Alumni
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include list.html data="members" component="portrait" filter="group == 'alum'" %}
 
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}

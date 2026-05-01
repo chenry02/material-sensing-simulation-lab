@@ -79,3 +79,36 @@ Here you can find the members of the team.
   title="Our Team"
   text=text
 %}
+
+{% include section.html %}
+
+## Funders
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/funders/Région Bretagne_NB.jpg"
+  caption="CPER Spacetech/Dronetech — TERACAMI"
+  width="150px"
+%}
+{% endcapture %}
+
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/funders/Europe_s_engage_RVB-1.jpg"
+  caption="CPER Spacetech/Dronetech — TERACAMI"
+  width="150px"
+%}
+{% endcapture %}
+
+{% capture col3 %}
+{%
+  include figure.html
+  image="images/funders/france_2030.jpg"
+  caption="Projet SYSTERA"
+  width="150px"
+%}
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 col3=col3 %}

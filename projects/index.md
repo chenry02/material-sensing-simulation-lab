@@ -7,21 +7,12 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Software tools and open-source resources developed by the Material Sensing & Simulation Lab for high-frequency material characterization and electromagnetic modeling.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="python, open-source, material characterization, millimeter-wave, THz, quasi-optical, simulation, skin sensing" %}
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include list.html component="card" data="projects" %}

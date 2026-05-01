@@ -3,8 +3,33 @@ import yaml
 import os
 
 # --- CHANGE THIS TO YOUR ACTUAL HAL ID ---
-HAL_ID = "clement-henry" 
+HAL_ID = "clement-henry"
 # -----------------------------------------
+
+# Papers to permanently exclude (co-authored outside the lab's scope)
+BLOCKLIST_DOIS = {
+    "10.1109/TAP.2023.3283043",
+    "10.1109/TAP.2022.3161390",
+    "10.1109/IEEECONF35879.2020.9330486",
+    "10.3390/ijerph17072586",
+    "10.1109/CLEOE-EQEC.2019.8873045",
+    "10.1364/OE.27.021069",
+    "10.1109/AP-S/INC-USNC-URSI52054.2024.10686275",
+    "10.1109/AP-S/INC-USNC-URSI52054.2024.10687162",
+    "10.1109/AP-S/INC-USNC-URSI52054.2024.10686480",
+    "10.1109/CAMA57522.2023.10352703",
+    "10.1109/CAMA57522.2023.10352886",
+    "10.23919/EuCAP57121.2023.10133635",
+    "10.1109/ICEAA49419.2022.9899870",
+    "10.1109/AP-S/USNC-URSI47032.2022.9886398",
+    "10.1109/AP-S/USNC-URSI47032.2022.9886850",
+}
+
+BLOCKLIST_HAL_IDS = {
+    "hal-04169310",
+    "hal-04342598",
+    "tel-04642819",
+}
 
 print(f"Fetching publications from HAL for {HAL_ID}...")
 
@@ -20,14 +45,22 @@ if 'response' in data and 'docs' in data['response']:
     for doc in data['response']['docs']:
         # We only want to give Manubot the papers that have a DOI attached to them in HAL
         if 'doiId_s' in doc:
-            sources.append({"id": f"doi:{doc['doiId_s']}"})
+            doi = doc['doiId_s']
+            if doi in BLOCKLIST_DOIS:
+                continue
+            sources.append({"id": f"doi:{doi}"})
         else:
+            uri = doc['uri_s']
+            # Extract HAL ID (e.g. hal-04169310) from URI for blocklist check
+            hal_id = uri.rstrip("/").split("/")[-1].split("v")[0]
+            if hal_id in BLOCKLIST_HAL_IDS:
+                continue
             # If no DOI is available, we fall back to manual formatting using the HAL URL
             # By supplying the title and date manually, Manubot won't crash trying to guess them
             title = doc.get('title_s', ['Untitled'])[0]
             date = doc.get('producedDate_s', '2020-01-01')
             sources.append({
-                "id": f"url:{doc['uri_s']}",
+                "id": f"url:{uri}",
                 "title": title,
                 "date": date,
                 "publisher": "HAL Archive Ouverte"

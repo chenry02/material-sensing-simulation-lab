@@ -1,7 +1,7 @@
 ---
 name: Clément Henry
 image: images/photo.jpg
-role: principal-investigator
+role: associate-professor
 affiliation: IMT Atlantique
 aliases:
   - C. Henry

@@ -13,11 +13,13 @@ This page presents selected publications from the Material Sensing & Simulation 
 
 ## Highlighted
 
-{% include citation.html lookup="Title of My Favorite Paper" style="rich" %}
+{% include citation.html lookup="Quasi-optical modeling of a millimeter- and submillimeter-wave free-space characterization bench" style="rich" %}
 
 {% include section.html %}
 
 ## All
+
+{% include tags.html tags="quasi-optical, millimeter-wave, THz, material characterization, measurement, skin sensing" %}
 
 {% include search-box.html %}
 {% include search-info.html %}

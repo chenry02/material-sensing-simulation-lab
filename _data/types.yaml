@@ -6,6 +6,14 @@ principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+associate-professor:
+  icon: fa-solid fa-chalkboard-teacher
+  description: Maître de Conférence — Associate Professor
+
+research-engineer:
+  icon: fa-solid fa-cogs
+  description: Research Engineer
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
@@ -13,6 +21,10 @@ postdoc:
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+
+master:
+  icon: fa-solid fa-user-graduate
+  description: Master Thesis Student
 
 undergrad:
   icon: fa-solid fa-user-graduate

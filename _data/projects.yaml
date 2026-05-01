@@ -1,1 +1,62 @@
+- title: pycarmat
+  subtitle: Python toolkit for S-parameter measurements and material characterization
+  image: images/photo.jpg
+  link: https://pypi.org/project/pycarmat/
+  description: >
+    **pycarmat** is an open-source Python package developed at IMT Atlantique for
+    dielectric material characterization from free-space S-parameter measurements,
+    with a focus on millimeter-wave and THz frequency bands.
+    It provides a full pipeline from raw VNA measurements to extracted permittivity,
+    supporting single-layer and multilayer samples.
+    The toolkit includes a GUI application, a quasi-optical bench simulation module (QOSM),
+    and command-line interfaces for measurement acquisition, permittivity extraction,
+    and multilayer optimization.
+    Install via `pip install pycarmat` or from the
+    [GitLab repository](https://gitlab.imt-atlantique.fr/material-sensing-and-simulation/pycarmat).
+  tags:
+    - python
+    - open-source
+    - material characterization
+    - millimeter-wave
+    - THz
+  repo: material-sensing-and-simulation/pycarmat
 
+- title: QOSM
+  subtitle: Quasi Optical System Modelling simulation module
+  image: images/journal/20250211_paper1_simulationtool.png
+  link: https://pypi.org/project/qosm/
+  description: >
+    **QOSM** (Quasi Optical System Modelling) is an open-source simulation module
+    developed at IMT Atlantique (Microwave Department, Lab-STICC) for modelling
+    quasi-optical systems used in millimeter-wave and sub-millimeter-wave material characterization.
+    It combines Gaussian beam expansion and tracking with modal analysis, and provides
+    S-parameter analysis for comparing simulated versus measured data, as well as
+    TRL calibration for de-embedding dielectric properties from free-space measurements.
+    Install via `pip install qosm` or from the
+    [GitLab repository](https://gitlab.imt-atlantique.fr/quasi-optical-system-modelling/qosm).
+  tags:
+    - python
+    - open-source
+    - quasi-optical
+    - simulation
+    - millimeter-wave
+  repo: quasi-optical-system-modelling/qosm
+
+- title: Skin Sensing at THz Frequencies
+  subtitle: Non-invasive dielectric characterization of human skin using THz waves
+  image: images/conf/20250330_confpaper_eucap.png
+  description: >
+    This project investigates the dielectric properties of human skin at millimeter-wave
+    and THz frequencies, with the goal of enabling non-invasive sensing and monitoring applications.
+    Using a free-space quasi-optical measurement bench, we extract the complex permittivity
+    of skin and skin-mimicking phantoms from GHz to THz regimes.
+    The approach combines accurate electromagnetic modeling with experimental measurements,
+    leveraging the QOSM simulation framework and pycarmat characterization toolkit
+    developed in the lab.
+    Applications include biomedical sensing, hydration monitoring, and non-destructive evaluation.
+  tags:
+    - skin sensing
+    - THz
+    - millimeter-wave
+    - material characterization
+    - quasi-optical
