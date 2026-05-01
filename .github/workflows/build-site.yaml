@@ -14,6 +14,8 @@ env:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-site:
@@ -36,6 +38,8 @@ jobs:
       - name: Get Pages url
         id: pages
         uses: actions/configure-pages@v4
+        with:
+          enablement: true
 
       - name: SSH debug
         if: runner.debug == '1'

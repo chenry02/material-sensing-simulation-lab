@@ -26,7 +26,7 @@ This section presents the main research contributions and publications of the Ma
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/journal/20250211_paper1_simulationtool.png"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +49,7 @@ This section presents the ongoing and past research projects conducted within th
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/conf/20250330_confpaper_eucap.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -74,7 +74,7 @@ Here you can find the members of the team.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/campus.jpg"
   link="team"
   title="Our Team"
   text=text
