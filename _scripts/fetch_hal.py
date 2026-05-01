@@ -38,6 +38,19 @@ url = f"https://api.archives-ouvertes.fr/search/?q=authIdHal_s:{HAL_ID}&fl=title
 response = requests.get(url)
 data = response.json()
 
+# Load existing sources.yaml to preserve custom fields (image, tags, etc.)
+existing_meta = {}
+try:
+    with open("_data/sources.yaml") as f:
+        for entry in yaml.safe_load(f) or []:
+            if "id" in entry:
+                existing_meta[entry["id"]] = {
+                    k: v for k, v in entry.items()
+                    if k not in ("id", "title", "date", "publisher")
+                }
+except FileNotFoundError:
+    pass
+
 sources = []
 
 # Check if we have papers
@@ -48,7 +61,9 @@ if 'response' in data and 'docs' in data['response']:
             doi = doc['doiId_s']
             if doi in BLOCKLIST_DOIS:
                 continue
-            sources.append({"id": f"doi:{doi}"})
+            entry = {"id": f"doi:{doi}"}
+            entry.update(existing_meta.get(f"doi:{doi}", {}))
+            sources.append(entry)
         else:
             uri = doc['uri_s']
             # Extract HAL ID (e.g. hal-04169310) from URI for blocklist check
@@ -59,12 +74,14 @@ if 'response' in data and 'docs' in data['response']:
             # By supplying the title and date manually, Manubot won't crash trying to guess them
             title = doc.get('title_s', ['Untitled'])[0]
             date = doc.get('producedDate_s', '2020-01-01')
-            sources.append({
+            entry = {
                 "id": f"url:{uri}",
                 "title": title,
                 "date": date,
                 "publisher": "HAL Archive Ouverte"
-            })
+            }
+            entry.update(existing_meta.get(f"url:{uri}", {}))
+            sources.append(entry)
 
 # Ensure the _data directory exists
 os.makedirs("_data", exist_ok=True)
