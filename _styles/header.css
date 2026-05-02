@@ -21,8 +21,6 @@ header a {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  flex-basis: 0;
-  flex-grow: 1;
   max-width: 100%;
 }
 
@@ -117,11 +115,24 @@ nav > a:hover {
   }
 }
 
+.home-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.partner-logo-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .partner-logo {
   height: 36px;
   object-fit: contain;
   opacity: 0.9;
-  flex-shrink: 0;
 }
 
 header[data-big] {
@@ -131,24 +142,25 @@ header[data-big] {
   padding: 100px 20px;
   top: unset;
 }
-header[data-big] .home {
-  flex-direction: row;
+header[data-big] .home-group {
   flex-wrap: wrap;
   justify-content: center;
   flex-grow: 0;
+  gap: 30px;
+}
+header[data-big] .partner-logo {
+  height: 75px;
+}
+header[data-big] .home {
+  flex: 0 0 100%;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
 }
 header[data-big] .logo {
   display: none;
 }
-header[data-big] .partner-logo {
-  height: 55px;
-  order: 1;
-}
 header[data-big] .title-text {
-  order: 2;
-  flex: 0 0 100%;
   flex-direction: column;
   align-items: center;
   text-align: center;
