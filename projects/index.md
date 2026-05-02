@@ -15,4 +15,24 @@ Software tools and open-source resources developed by the Material Sensing & Sim
 
 {% include section.html %}
 
-{% include list.html component="card" data="projects" %}
+## Skin Sensing
+
+{% include list.html component="card" data="projects" filter="category == 'Skin Sensing'" %}
+
+{% include section.html %}
+
+## Material Characterization
+
+{% include list.html component="card" data="projects" filter="category == 'Material Characterization'" %}
+
+{% include section.html %}
+
+## Antenna Characterization with Robotic Arm
+
+{% include list.html component="card" data="projects" filter="category == 'Antenna Characterization with Robotic Arm'" %}
+
+{% include section.html %}
+
+## Software
+
+{% include list.html component="card" data="projects" filter="category == 'Software'" %}

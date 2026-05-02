@@ -1,5 +1,6 @@
 - title: pycarmat
-  subtitle: Python toolkit for S-parameter measurements and material characterization
+  category: Software
+  subtitle: Open Source — Python toolkit for S-parameter measurements and material characterization
   image: images/photo.jpg
   link: https://pypi.org/project/pycarmat/
   description: >
@@ -22,7 +23,8 @@
   repo: material-sensing-and-simulation/pycarmat
 
 - title: QOSM
-  subtitle: Quasi Optical System Modelling simulation module
+  category: Software
+  subtitle: Open Source — Quasi Optical System Modelling simulation module
   image: images/journal/20250211_paper1_simulationtool.png
   link: https://pypi.org/project/qosm/
   description: >
@@ -42,9 +44,55 @@
     - millimeter-wave
   repo: quasi-optical-system-modelling/qosm
 
+- title: Measurements with a Collaborative Robot
+  category: Antenna Characterization with Robotic Arm
+  subtitle: Field measurements and material characterization using a UR10e robotic arm
+  image: images/projects/robot.png
+  description: >
+    This project uses a six-degree-of-freedom UR10e collaborative robotic arm (Universal Robots)
+    for millimeter-wave field measurements and material characterization.
+    The experimental setup consists of a static emission/reception head connected to a diagonal
+    horn and a PTFE lens, while the robotic arm — controlled via its digital twin in RobotDK
+    and a Python script — positions a second emission/reception head for field scanning.
+    A vector network analyzer (VNA) measures the transmission parameters of the full system.
+    The robot performs planar scans of the field distribution, with results showing good agreement
+    between measurements and simulation in terms of beam intensity and collimation.
+    Phase ripples observed in measurements were found to depend on the robot scan axis order,
+    highlighting the importance of motion sequencing for accurate field characterization.
+  tags:
+    - millimeter-wave
+    - robotic arm
+    - field measurement
+    - antenna characterization
+    - quasi-optical
+
+- title: Interlaboratory Comparison of CW and TDS Systems
+  category: Material Characterization
+  subtitle: Cross-system dielectric characterization from millimeter-wave to THz
+  image: images/conf/germanconf2025.png
+  description: >
+    This project conducts an interlaboratory comparison of dielectric material characterization
+    using two complementary measurement approaches: continuous-wave (CW) free-space systems
+    operating in the millimeter-wave range and time-domain spectroscopy (TDS) systems covering
+    the THz band.
+    By comparing permittivity extraction results obtained with both techniques on common reference
+    samples, this work assesses the consistency, accuracy, and complementarity of the two methods
+    across overlapping frequency ranges.
+    The study involves collaboration between IMT Atlantique (Lab-STICC) and external partners,
+    and contributes to the establishment of reliable measurement protocols for broadband
+    dielectric characterization of materials.
+  tags:
+    - material characterization
+    - millimeter-wave
+    - THz
+    - CW
+    - TDS
+    - interlaboratory
+
 - title: Skin Sensing at THz Frequencies
+  category: Skin Sensing
   subtitle: Non-invasive dielectric characterization of human skin using THz waves
-  image: images/conf/20250330_confpaper_eucap.png
+  image: images/projects/skin-sensing.png
   description: >
     This project investigates the dielectric properties of human skin at millimeter-wave
     and THz frequencies, with the goal of enabling non-invasive sensing and monitoring applications.

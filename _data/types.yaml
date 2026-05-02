@@ -8,7 +8,7 @@ principal-investigator:
 
 associate-professor:
   icon: fa-solid fa-chalkboard-teacher
-  description: Maître de Conférence — Associate Professor
+  description: "Maître de Conférence<br>Associate Professor"
 
 research-engineer:
   icon: fa-solid fa-cogs

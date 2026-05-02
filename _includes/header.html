@@ -16,29 +16,35 @@
     data-big
   {% endif %}
 >
-  <a href="{{ "/" | relative_url }}" class="home">
-    <img class="partner-logo" src="{{ 'images/imtatlantique-rvb-reserve.png' | relative_url }}" alt="IMT Atlantique">
-    {% if logo %}
-      <span class="logo">
-        {% if svg %}
-          {{ svg | file_read }}
-        {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
-        {% endif %}
-      </span>
-    {% endif %}
-    <img class="partner-logo" src="{{ 'images/logo-lab-sticc.png' | relative_url }}" alt="Lab-STICC">
-    {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-          <span class="title">{{ site.title }}</span>
-        {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span class="subtitle">{{ site.subtitle }}</span>
-        {% endif %}
-      </span>
-    {% endif %}
-  </a>
+  <div class="home-group">
+    <a href="https://www.imt-atlantique.fr/fr" class="partner-logo-link" target="_blank" rel="noopener">
+      <img class="partner-logo" src="{{ 'images/imtatlantique-rvb-reserve.png' | relative_url }}" alt="IMT Atlantique">
+    </a>
+    <a href="https://labsticc.fr/fr" class="partner-logo-link" target="_blank" rel="noopener">
+      <img class="partner-logo" src="{{ 'images/logo-lab-sticc.png' | relative_url }}" alt="Lab-STICC">
+    </a>
+    <a href="{{ "/" | relative_url }}" class="home">
+      {% if logo %}
+        <span class="logo">
+          {% if svg %}
+            {{ svg | file_read }}
+          {% else %}
+            <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          {% endif %}
+        </span>
+      {% endif %}
+      {% if site.logo-text != false %}
+        <span class="title-text" data-tooltip="Home">
+          {% if site.title and site.show-title != false %}
+            <span class="title">{{ site.title }}</span>
+          {% endif %}
+          {% if site.subtitle and site.show-subtitle != false %}
+            <span class="subtitle">{{ site.subtitle }}</span>
+          {% endif %}
+        </span>
+      {% endif %}
+    </a>
+  </div>
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 

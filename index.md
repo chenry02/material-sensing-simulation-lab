@@ -89,6 +89,7 @@ Here you can find the members of the team.
   include figure.html
   image="images/funders/Région Bretagne_NB.jpg"
   caption="CPER Spacetech/Dronetech — TERACAMI"
+  link="https://www.imt-atlantique.fr/fr/recherche-innovation/collaborer/projet/cper-spacetechdronetech-teracami"
   width="150px"
 %}
 {% endcapture %}
@@ -98,6 +99,7 @@ Here you can find the members of the team.
   include figure.html
   image="images/funders/Europe_s_engage_RVB-1.jpg"
   caption="CPER Spacetech/Dronetech — TERACAMI"
+  link="https://www.imt-atlantique.fr/fr/recherche-innovation/collaborer/projet/cper-spacetechdronetech-teracami"
   width="150px"
 %}
 {% endcapture %}
@@ -107,6 +109,7 @@ Here you can find the members of the team.
   include figure.html
   image="images/funders/france_2030.jpg"
   caption="Projet SYSTERA"
+  link="https://pepr-futurenetworks.fr/projet/systera/"
   width="150px"
 %}
 {% endcapture %}

@@ -1,6 +1,6 @@
 ---
 name: Clément Henry
-image: images/photo.jpg
+image: images/members/clement.jpeg
 role: associate-professor
 affiliation: IMT Atlantique
 aliases:
