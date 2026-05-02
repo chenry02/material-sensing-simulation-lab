@@ -132,6 +132,7 @@ header:not([data-big]) {
 
 .home-group {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 10px;
   flex-basis: 0;
@@ -155,10 +156,7 @@ header[data-big] {
   align-items: center;
   flex-direction: column;
   padding: $big-padding 20px;
-
-  @if $sticky {
-    top: unset;
-  }
+  top: unset;
 
   .home-group {
     flex-wrap: wrap;
