@@ -15,10 +15,10 @@
   link: https://hal.science/hal-05378598
   image: images/conf/germanconf2025.png
   tags:
-    - millimeter-wave
-    - THz
-    - material characterization
-    - measurement
+  - millimeter-wave
+  - THz
+  - material characterization
+  - measurement
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.23919/EuCAP63536.2025.10999502
@@ -33,9 +33,9 @@
   link: https://doi.org/hbhm57
   image: images/conf/20250330_confpaper_eucap.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - skin sensing
+  - quasi-optical
+  - millimeter-wave
+  - skin sensing
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1017/S1759078724001314
@@ -51,10 +51,10 @@
   link: https://doi.org/hbhm56
   image: images/journal/20250211_paper1_simulationtool.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - material characterization
-    - measurement
+  - quasi-optical
+  - millimeter-wave
+  - material characterization
+  - measurement
   plugin: sources.py
   file: sources.yaml
 - id: url:https://imt-atlantique.hal.science/hal-04795549v1
@@ -69,8 +69,8 @@
   link: https://imt-atlantique.hal.science/hal-04795549
   image: images/conf/20141111_confpaper_ESA.png
   tags:
-    - quasi-optical
-    - millimeter-wave
+  - quasi-optical
+  - millimeter-wave
   plugin: sources.py
   file: sources.yaml
 - id: url:https://imt-atlantique.hal.science/hal-04631622v1
@@ -86,9 +86,9 @@
   link: https://imt-atlantique.hal.science/hal-04631622
   image: images/conf/jnm_2024.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - material characterization
+  - quasi-optical
+  - millimeter-wave
+  - material characterization
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.23919/EuCAP60739.2024.10501609
@@ -103,9 +103,9 @@
   link: https://doi.org/hbtzm3
   image: images/conf/20250330_confpaper_eucap.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - measurement
+  - quasi-optical
+  - millimeter-wave
+  - measurement
   plugin: sources.py
   file: sources.yaml
 - id: url:https://hal.science/hal-04164234v1
@@ -121,8 +121,8 @@
   link: https://hal.science/hal-04164234
   image: images/conf/JCMM2023.png
   tags:
-    - millimeter-wave
-    - material characterization
-    - measurement
+  - millimeter-wave
+  - material characterization
+  - measurement
   plugin: sources.py
   file: sources.yaml

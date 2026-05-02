@@ -1,58 +1,58 @@
 - date: '2025-06-24'
   id: url:https://hal.science/hal-05378598v1
+  image: images/conf/germanconf2025.png
   publisher: HAL Archive Ouverte
+  tags:
+  - millimeter-wave
+  - THz
+  - material characterization
+  - measurement
   title: Comparative study of characterization techniques in the Millimeter Waves
     and THz domains
-  image: images/conf/germanconf2025.png
-  tags:
-    - millimeter-wave
-    - THz
-    - material characterization
-    - measurement
 - id: doi:10.23919/EuCAP63536.2025.10999502
   image: images/conf/20250330_confpaper_eucap.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - skin sensing
+  - quasi-optical
+  - millimeter-wave
+  - skin sensing
 - id: doi:10.1017/S1759078724001314
   image: images/journal/20250211_paper1_simulationtool.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - material characterization
-    - measurement
+  - quasi-optical
+  - millimeter-wave
+  - material characterization
+  - measurement
 - date: '2024-11-11'
   id: url:https://imt-atlantique.hal.science/hal-04795549v1
-  publisher: HAL Archive Ouverte
-  title: High frequency modeling of a quasi-optical characterization bench
   image: images/conf/20141111_confpaper_ESA.png
+  publisher: HAL Archive Ouverte
   tags:
-    - quasi-optical
-    - millimeter-wave
+  - quasi-optical
+  - millimeter-wave
+  title: High frequency modeling of a quasi-optical characterization bench
 - date: '2024-06-04'
   id: url:https://imt-atlantique.hal.science/hal-04631622v1
+  image: images/conf/jnm_2024.png
   publisher: HAL Archive Ouverte
+  tags:
+  - quasi-optical
+  - millimeter-wave
+  - material characterization
   title: "Mod\xE9lisation de syst\xE8mes quasi-optiques d\xE9di\xE9s \xE0 la caract\xE9\
     risation de mat\xE9riaux et \xE0 l'imagerie en bande J (220-330 GHz)"
-  image: images/conf/jnm_2024.png
-  tags:
-    - quasi-optical
-    - millimeter-wave
-    - material characterization
 - id: doi:10.23919/EuCAP60739.2024.10501609
   image: images/conf/20250330_confpaper_eucap.png
   tags:
-    - quasi-optical
-    - millimeter-wave
-    - measurement
+  - quasi-optical
+  - millimeter-wave
+  - measurement
 - date: '2023-04-03'
   id: url:https://hal.science/hal-04164234v1
+  image: images/conf/JCMM2023.png
   publisher: HAL Archive Ouverte
+  tags:
+  - millimeter-wave
+  - material characterization
+  - measurement
   title: "Un banc de mesure de param\xE8tres S en espace libre sans moyennage ni filtrage\
     \ temporel : caract\xE9risation de mat\xE9riaux jusqu'\xE0 330 GHz"
-  image: images/conf/JCMM2023.png
-  tags:
-    - millimeter-wave
-    - material characterization
-    - measurement
