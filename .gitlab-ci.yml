@@ -1,0 +1,29 @@
+image: ruby:3.1
+
+variables:
+  BUNDLE_PATH: vendor/bundle
+
+cache:
+  paths:
+    - vendor/bundle
+
+pages:
+  stage: deploy
+  script:
+    - bundle install
+    - JEKYLL_ENV=production bundle exec jekyll build --destination public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+update-citations:
+  stage: deploy
+  image: python:3.11
+  script:
+    - pip install requests PyYAML
+    - python _scripts/fetch_hal.py
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+  allow_failure: true
